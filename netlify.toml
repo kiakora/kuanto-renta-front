@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/calculate"
-  to = "https://kuanto-renta.kiakora.com"
+  to = "https://kuanto-renta.kiakora.com/calculate"
   status = 200
   force = true
