@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/api"
+  from = "/calculate"
   to = "https://kuanto-renta.kiakora.com"
   status = 200
   force = true
