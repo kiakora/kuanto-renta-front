@@ -1,0 +1,50 @@
+body { 
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.bg_blur {
+    background-image: url("./fancy-crave-21726-unsplash.jpg");
+    background-size: 125%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    background-color: rgba(42,31,58,0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.2em;
+    height: 100vh;
+    margin: 1em;
+    padding: 2em 10em;
+    position: fixed;
+    width: 50vw;
+    z-index: 2;
+}
+
+.title {
+    font-family: 'Poiret One', cursive;
+    font-size: 2.5em;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 1em;
+    margin-bottom: 5em;
+    text-align: center;
+}
+
+input-field::part(value), select-field::part(value) {
+    margin-left: 1em;
+    min-width: 13em;
+}
