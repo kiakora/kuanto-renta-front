@@ -63,9 +63,9 @@ class SendButton extends HTMLElement {
 				}
 			}
 		};
-		httpRequest.open('POST', 'https://kuantorenta.kiakora.com/calculate', true);
 		httpRequest.setRequestHeader('Content-Type', 'application/json');
 		httpRequest.setRequestHeader('Access-Control-Allow-Origin', '*');
+		httpRequest.open('POST', 'https://kuantorenta.kiakora.com/calculate', true);
 		httpRequest.send(`{"region":"${regionValue}", "expenses":${expensesValue},"revenue":${revenueValue}}`);
 
 	}
