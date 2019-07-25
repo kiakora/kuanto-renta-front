@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/calculate"
-  to = "https://kuanto.kiakora.com/calculate"
+  to = "https://kuantorenta.kiakora.com/calculate"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
