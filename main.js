@@ -63,7 +63,7 @@ class SendButton extends HTMLElement {
 				}
 			}
 		};
-		httpRequest.open('POST', 'https://mehfruu14d.execute-api.eu-west-3.amazonaws.com/production/kuanto', true);
+		httpRequest.open('POST', '/calculate', true);
 		httpRequest.setRequestHeader('Content-Type', 'application/json');
 		//httpRequest.setRequestHeader('Access-Control-Allow-Origin', '*');
 		httpRequest.send(`{"region":"${regionValue}", "expenses":${expensesValue},"revenue":${revenueValue}}`);
